@@ -36,3 +36,29 @@
     transform: rotate(360deg);
   }
 }
+
+.main {
+  position: absolute;
+  margin-top: 100px;
+  width: 100%;
+}
+.footer {
+  background-color: #a5a2a2;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-content h2 {
+  color: #fff;
+}
+
+.footer-content h5,
+.footer-content p,
+.footer-links a {
+  color: #fff;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
